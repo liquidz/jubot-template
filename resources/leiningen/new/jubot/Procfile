@@ -1,1 +1,1 @@
-web: java $JVM_OPTS -cp target/{{sanitized}}-standalone.jar clojure.main -m {{name}}.core -a slack
+web: java $JVM_OPTS -cp target/{{sanitized}}-standalone.jar clojure.main -m {{name}}.core --name jubot --adapter slack --brain redis
