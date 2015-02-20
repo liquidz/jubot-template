@@ -1,6 +1,10 @@
 # jubot-template
 
+[![Dependency Status](https://www.versioneye.com/user/projects/54e74670d1ec573c99000ba5/badge.svg?style=flat)](https://www.versioneye.com/user/projects/54e74670d1ec573c99000ba5)
+
 A Leiningen template for [jubot](https://github.com/liquidz/jubot).
+
+This template is based on [jubot-sample](https://github.com/liquidz/jubot-sample/).
 
 ## Usage
 
