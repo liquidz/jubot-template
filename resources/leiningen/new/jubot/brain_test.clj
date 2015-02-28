@@ -1,15 +1,10 @@
-(ns {{name}}.sample-test
+(ns {{name}}.sample.brain-test
   (:require
-    [{{name}}.sample :refer :all]
+    [{{name}}.sample.brain :refer :all]
     [jubot.test :refer :all]
     [clojure.test :refer :all]))
 
-(deftest ping-handler-test
-  (are [x y] (= x (ping-handler y))
-    nil    {}
-    "pong" {:text "ping"}))
-
-(deftest brain-handler-test
+(deftest test-brain-handler
   (with-test-brain
     (are [x y] (= x (brain-handler y))
       nil   {}
