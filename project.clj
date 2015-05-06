@@ -1,4 +1,4 @@
-(defproject jubot/lein-template "0.0.1"
+(defproject jubot/lein-template "0.1.0"
   :description "jubot template"
   :url "http://example.com/FIXME"
   :license {:name "Eclipse Public License"
