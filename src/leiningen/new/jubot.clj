@@ -23,7 +23,10 @@
       ["src/{{sanitized}}/edit_me.clj"               (render "edit_me.clj" data)]
       ["src/{{sanitized}}/sample/pingpong.clj"       (render "pingpong.clj" data)]
       ["src/{{sanitized}}/sample/brain.clj"          (render "brain.clj" data)]
+      ["src/{{sanitized}}/sample/hear.clj"           (render "hear.clj" data)]
+      ["src/{{sanitized}}/sample/another_bot.clj"    (render "another_bot.clj" data)]
       ["test/{{sanitized}}/edit_me_test.clj"         (render "edit_me_test.clj" data)]
       ["test/{{sanitized}}/sample/pingpong_test.clj" (render "pingpong_test.clj" data)]
       ["test/{{sanitized}}/sample/brain_test.clj"    (render "brain_test.clj" data)]
+      ["test/{{sanitized}}/sample/hear_test.clj"     (render "hear_test.clj" data)]
       )))
